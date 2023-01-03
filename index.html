@@ -6,37 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/main.css">
-    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
 </head>
 <body>
+    <div class="viewer">
+        <div class="slide" id="slide-1">
+            <h1>Agenda</h1>
+            <h2>first point</h2>
+            <h2>second larger point</h2>
+            <h2>conclusion</h2>
+            <img src="assets/img/peep-52.png" alt="">
+        </div>
+        <div class="slide" id="slide-2">
+            <h1>slide 2</h1>
+        </div>
+        <div class="slide" id="slide-3">
+            <h1>slide 3</h1>
+        </div>
+        <div class="slide" id="slide-4">
+            <h1>slide 4</h1>
+        </div>
+        <div class="slide" id="slide-5">
+            <h1>slide 5</h1>
+        </div>
+        <div class="slide" id="slide-6">
+            <h1>slide 6</h1>
+        </div>
+    </div>
     <div class="buttons">
-        <a href="#slide-1">1</a>
+        <a href="#slide-1" class="clicked">1</a>
         <a href="#slide-2">2</a>
         <a href="#slide-3">3</a>
         <a href="#slide-4">4</a>
         <a href="#slide-5">5</a>
         <a href="#slide-6">6</a>
-    </div>
-    <div class="viewer">
-        <div class="slide" id="slide-1">
-            <h1>This is slide number 1</h1>
-        </div>
-        <div class="slide" id="slide-2">
-            <h1>This is slide number 2</h1>
-        </div>
-        <div class="slide" id="slide-3">
-            <h1>This is slide number 3</h1>
-        </div>
-        <div class="slide" id="slide-4">
-            <h1>This is slide number 4</h1>
-        </div>
-        <div class="slide" id="slide-5">
-            <h1>This is slide number 5</h1>
-        </div>
-        <div class="slide" id="slide-6">
-            <h1>This is slide number 6</h1>
-        </div>
+        <a href="#slide-1" id="back">back</a>
     </div>
 </body>
 </html>
